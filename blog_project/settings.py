@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-0k=n#pao0w+emhu_e6_7a004muv)+jnjykok#+))egcpzfwm1d"
+SECRET_KEY = "XXXXXXXXXXXXXXXXXXXXXXXXX"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -80,11 +80,11 @@ WSGI_APPLICATION = "blog_project.wsgi.application"
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'posts',
-        'USER': 'admin1',
-        'PASSWORD': 'blog123',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'NAME': 'XXXXXXXXXX',
+        'USER': 'XXXXXXXXXX',
+        'PASSWORD': 'XXXXXXXXXX',
+        'HOST': 'XXXXXXXXXX',
+        'PORT': 'XXXXXXXXXX',
     }
 }
 
@@ -126,7 +126,7 @@ USE_TZ = True
 STATIC_URL = "static/"
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
+    "XXXXXXXXXXXXXXXXXXXXXXXXX",
 ]
 
 # Default primary key field type
